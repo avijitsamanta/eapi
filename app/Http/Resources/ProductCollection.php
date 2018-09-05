@@ -17,7 +17,7 @@ class ProductCollection extends Resource
         return [
 
                 'name'=>$this->name,
-                'detail'=>$this->description,
+                'description'=>$this->description,
                 'price'=>$this->price,
                 'discount'=>$this->discount,
                 'stock'=> $this->stock,
